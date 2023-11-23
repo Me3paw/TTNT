@@ -1,0 +1,17 @@
+import numpy as np
+
+# Creating a 1-dimensional array
+arr = np.array([1, 2, 3, 4, 5])
+
+# Printing the array
+print(arr)
+import numpy as np
+
+# Your data
+row1 = np.array([0.85894928, -0.30465586, -1.13062074, -0.04926844, 1.06143029, 1.04740277])
+row2 = np.array([-0.44009769, 0.757174, 0.98646659, -1.48701111, -0.01661202, 0.26912432])
+
+# Creating a 2D array
+two_d_array = np.array([row1, row2])
+temp=two_d_array.flatten()
+print(temp)
